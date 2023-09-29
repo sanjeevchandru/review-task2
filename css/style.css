@@ -1,0 +1,145 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	}
+	/* .container{ */
+		/* width:90%; */
+		/* margin:auto; */
+	/* } */
+	a{
+		text-decoration:none;
+	}
+	li{
+		font-weight:bold;
+		list-style-type:none;
+		font-size:17px;
+	}
+	.head-row{
+		padding:3% 0;
+		display:flex;
+		justify-content:space-between;
+	}
+	.head-logo h3{
+		font-weight:bold;
+		font-size:1rem;
+	}
+	
+	/* .head-nav{ */
+		/* width:40%; */
+	/* } */
+	.head-nav ul{
+		display:flex;
+		justify-content:space-between;
+	}
+	/* .head-social a{ */
+		/* padding:0 15px; */
+	/* } */
+	.head-social i{
+		color:#fff;
+		padding:5px;
+		background-color:#000;
+		border-radius:50%;
+	}
+	/* .head-menu{ */
+		/* display:none; */
+	/* } */
+	
+	/* #baner-sec{ */
+		/* height:100vh; */
+	/* } */
+	/* .baner-row{ */
+		/* display:flex; */
+		/* align-items:center; */
+	/* } */
+	/* .baner-col{ */
+		/* width:45%; */
+	/* } */
+	
+	.baner-card pre{
+		font-size:3rem;
+	}
+	.baner-card pre span{
+		font-weight:bold;
+	}
+	.baner-card h1{
+		font-size:50px;
+		position:relative;;
+	}
+	.baner-card  h1::after{
+		content:"";
+		
+		width:50%;
+		height:3px;
+		background-color:#000;
+		
+		position:absolute;
+		bottom:-20%;
+		left:1%;
+	}
+	.baner-card .two{
+		font-size:30px;
+		padding-top:10%;
+		line-height:3;
+	}		
+	.baner-card a{
+		padding:10px 50px;
+		color:#fff;
+		background-color:#000;
+		border-radius:10px;
+		
+		position:relative;
+	}
+	.baner-card a::after{
+		content:"";
+		
+		width:130px;
+		height:130px;
+		background-color:yellow;
+		border-radius:50%;
+		
+		position:absolute;
+		bottom:0;
+		right:-150%;
+	}
+	
+	
+		
+	/* .baner-image{ */
+		/* width:55%; */
+	/* } */
+	.baner-image img{
+		width:100%;
+		height:75vh;
+	}
+	
+	.baner-card .design{
+		padding-top:40px;
+		/* width:50%; */
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+	.design .one{
+		width:40px;
+		height:40px;
+		background-color:#000;
+		border-radius:50px 0 0 0;
+		
+	}
+	
+	.design .two{
+		width:50px;
+		height:50px;
+		background-color:yellow;
+		border-radius:50%;
+		
+	}
+	.design .three{
+		width:60px;
+		height:60px;
+		background-color:#000;
+		border-radius:60px 0 0 0;
+		
+	}
